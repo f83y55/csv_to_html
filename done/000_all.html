@@ -1,0 +1,516 @@
+<div style="display:flex;flex-wrap:wrap;">
+
+<table id="Vols" class="mytable">
+  <style scoped>
+    
+      @media screen, print {
+        .mytable {
+          margin: 1.5em;
+          border-collapse: collapse;
+          font-family: monospace;
+          -webkit-print-color-adjust:exact !important;
+          print-color-adjust:exact !important;
+        }
+        .mytable caption {
+          font-weight: bold;
+        }
+        .mytable tr:nth-child(even) {background-color: #ccc}
+        .mytable tr:nth-child(odd) {background-color: #ddd}
+        .mytable th {
+          text-align: left;
+          background-color: #bbb;
+          border: 2px solid black;
+          padding: 0.5em;
+        }
+        .mytable td {
+          text-align: left;
+          border: 1px solid black;
+          padding: 0.5em;
+        }
+      }
+
+  </style>
+  <caption>
+    Vols
+  </caption>
+  <thead>
+    <tr class="table_row_tr_0">
+      <th class="table_row_0 table_column_1">
+        idVols
+      </th>
+      <th class="table_row_0 table_column_2">
+        compagnie
+      </th>
+      <th class="table_row_0 table_column_3">
+        depart
+      </th>
+      <th class="table_row_0 table_column_4">
+        arrivee
+      </th>
+      <th class="table_row_0 table_column_5">
+        h_depart
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table_row_tr_1">
+      <td class="table_row_1 table_column_1">
+        1
+      </td>
+      <td class="table_row_1 table_column_2">
+        AF28
+      </td>
+      <td class="table_row_1 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_1 table_column_4">
+        CDG
+      </td>
+      <td class="table_row_1 table_column_5">
+        10:15
+      </td>
+    </tr>
+    <tr class="table_row_tr_2">
+      <td class="table_row_2 table_column_1">
+        2
+      </td>
+      <td class="table_row_2 table_column_2">
+        KLM
+      </td>
+      <td class="table_row_2 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_2 table_column_4">
+        JFK
+      </td>
+      <td class="table_row_2 table_column_5">
+        10:20
+      </td>
+    </tr>
+    <tr class="table_row_tr_3">
+      <td class="table_row_3 table_column_1">
+        3
+      </td>
+      <td class="table_row_3 table_column_2">
+        LUFT
+      </td>
+      <td class="table_row_3 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_3 table_column_4">
+        PTP
+      </td>
+      <td class="table_row_3 table_column_5">
+        11:05
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="table_row_tr_4">
+      <td class="table_row_4 table_column_1">
+        4
+      </td>
+      <td class="table_row_4 table_column_2">
+        AF28
+      </td>
+      <td class="table_row_4 table_column_3">
+        CDG
+      </td>
+      <td class="table_row_4 table_column_4">
+        TLS
+      </td>
+      <td class="table_row_4 table_column_5">
+        11:38
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<table id="VolsCopy" class="mytable">
+  <style scoped>
+    
+      @media screen, print {
+        .mytable {
+          margin: 1.5em;
+          border-collapse: collapse;
+          font-family: monospace;
+          -webkit-print-color-adjust:exact !important;
+          print-color-adjust:exact !important;
+        }
+        .mytable caption {
+          font-weight: bold;
+        }
+        .mytable tr:nth-child(even) {background-color: #ccc}
+        .mytable tr:nth-child(odd) {background-color: #ddd}
+        .mytable th {
+          text-align: left;
+          background-color: #bbb;
+          border: 2px solid black;
+          padding: 0.5em;
+        }
+        .mytable td {
+          text-align: left;
+          border: 1px solid black;
+          padding: 0.5em;
+        }
+      }
+
+  </style>
+  <caption>
+    VolsCopy
+  </caption>
+  <thead>
+    <tr class="table_row_tr_0">
+      <th class="table_row_0 table_column_1">
+        idVols
+      </th>
+      <th class="table_row_0 table_column_2">
+        compagnie
+      </th>
+      <th class="table_row_0 table_column_3">
+        depart
+      </th>
+      <th class="table_row_0 table_column_4">
+        arrivee
+      </th>
+      <th class="table_row_0 table_column_5">
+        h_depart
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table_row_tr_1">
+      <td class="table_row_1 table_column_1">
+        1
+      </td>
+      <td class="table_row_1 table_column_2">
+        AF28
+      </td>
+      <td class="table_row_1 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_1 table_column_4">
+        CDG
+      </td>
+      <td class="table_row_1 table_column_5">
+        10:15
+      </td>
+    </tr>
+    <tr class="table_row_tr_2">
+      <td class="table_row_2 table_column_1">
+        2
+      </td>
+      <td class="table_row_2 table_column_2">
+        KLM
+      </td>
+      <td class="table_row_2 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_2 table_column_4">
+        JFK
+      </td>
+      <td class="table_row_2 table_column_5">
+        10:20
+      </td>
+    </tr>
+    <tr class="table_row_tr_3">
+      <td class="table_row_3 table_column_1">
+        3
+      </td>
+      <td class="table_row_3 table_column_2">
+        LUFT
+      </td>
+      <td class="table_row_3 table_column_3">
+        TLS
+      </td>
+      <td class="table_row_3 table_column_4">
+        PTP
+      </td>
+      <td class="table_row_3 table_column_5">
+        11:05
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="table_row_tr_4">
+      <td class="table_row_4 table_column_1">
+        4
+      </td>
+      <td class="table_row_4 table_column_2">
+        AF28
+      </td>
+      <td class="table_row_4 table_column_3">
+        CDG
+      </td>
+      <td class="table_row_4 table_column_4">
+        TLS
+      </td>
+      <td class="table_row_4 table_column_5">
+        11:38
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<table id="Passagers" class="mytable">
+  <style scoped>
+    
+      @media screen, print {
+        .mytable {
+          margin: 1.5em;
+          border-collapse: collapse;
+          font-family: monospace;
+          -webkit-print-color-adjust:exact !important;
+          print-color-adjust:exact !important;
+        }
+        .mytable caption {
+          font-weight: bold;
+        }
+        .mytable tr:nth-child(even) {background-color: #ccc}
+        .mytable tr:nth-child(odd) {background-color: #ddd}
+        .mytable th {
+          text-align: left;
+          background-color: #bbb;
+          border: 2px solid black;
+          padding: 0.5em;
+        }
+        .mytable td {
+          text-align: left;
+          border: 1px solid black;
+          padding: 0.5em;
+        }
+      }
+
+  </style>
+  <caption>
+    Passagers
+  </caption>
+  <thead>
+    <tr class="table_row_tr_0">
+      <th class="table_row_0 table_column_1">
+        idPassagers
+      </th>
+      <th class="table_row_0 table_column_2">
+        idVols
+      </th>
+      <th class="table_row_0 table_column_3">
+        idClients
+      </th>
+      <th class="table_row_0 table_column_4">
+        prix
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table_row_tr_1">
+      <td class="table_row_1 table_column_1">
+        1
+      </td>
+      <td class="table_row_1 table_column_2">
+        1
+      </td>
+      <td class="table_row_1 table_column_3">
+        3
+      </td>
+      <td class="table_row_1 table_column_4">
+        50
+      </td>
+    </tr>
+    <tr class="table_row_tr_2">
+      <td class="table_row_2 table_column_1">
+        2
+      </td>
+      <td class="table_row_2 table_column_2">
+        1
+      </td>
+      <td class="table_row_2 table_column_3">
+        2
+      </td>
+      <td class="table_row_2 table_column_4">
+        55
+      </td>
+    </tr>
+    <tr class="table_row_tr_3">
+      <td class="table_row_3 table_column_1">
+        3
+      </td>
+      <td class="table_row_3 table_column_2">
+        3
+      </td>
+      <td class="table_row_3 table_column_3">
+        1
+      </td>
+      <td class="table_row_3 table_column_4">
+        200
+      </td>
+    </tr>
+    <tr class="table_row_tr_4">
+      <td class="table_row_4 table_column_1">
+        4
+      </td>
+      <td class="table_row_4 table_column_2">
+        4
+      </td>
+      <td class="table_row_4 table_column_3">
+        4
+      </td>
+      <td class="table_row_4 table_column_4">
+        180
+      </td>
+    </tr>
+    <tr class="table_row_tr_5">
+      <td class="table_row_5 table_column_1">
+        6
+      </td>
+      <td class="table_row_5 table_column_2">
+        3
+      </td>
+      <td class="table_row_5 table_column_3">
+        5
+      </td>
+      <td class="table_row_5 table_column_4">
+        210
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="table_row_tr_6">
+      <td class="table_row_6 table_column_1">
+        5
+      </td>
+      <td class="table_row_6 table_column_2">
+        4
+      </td>
+      <td class="table_row_6 table_column_3">
+        6
+      </td>
+      <td class="table_row_6 table_column_4">
+        180
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+<table id="Clients" class="mytable">
+  <style scoped>
+    
+      @media screen, print {
+        .mytable {
+          margin: 1.5em;
+          border-collapse: collapse;
+          font-family: monospace;
+          -webkit-print-color-adjust:exact !important;
+          print-color-adjust:exact !important;
+        }
+        .mytable caption {
+          font-weight: bold;
+        }
+        .mytable tr:nth-child(even) {background-color: #ccc}
+        .mytable tr:nth-child(odd) {background-color: #ddd}
+        .mytable th {
+          text-align: left;
+          background-color: #bbb;
+          border: 2px solid black;
+          padding: 0.5em;
+        }
+        .mytable td {
+          text-align: left;
+          border: 1px solid black;
+          padding: 0.5em;
+        }
+      }
+
+  </style>
+  <caption>
+    Clients
+  </caption>
+  <thead>
+    <tr class="table_row_tr_0">
+      <th class="table_row_0 table_column_1">
+        idClients
+      </th>
+      <th class="table_row_0 table_column_2">
+        nom
+      </th>
+      <th class="table_row_0 table_column_3">
+        prenom
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table_row_tr_1">
+      <td class="table_row_1 table_column_1">
+        1
+      </td>
+      <td class="table_row_1 table_column_2">
+        Tarrerro
+      </td>
+      <td class="table_row_1 table_column_3">
+        Guy
+      </td>
+    </tr>
+    <tr class="table_row_tr_2">
+      <td class="table_row_2 table_column_1">
+        2
+      </td>
+      <td class="table_row_2 table_column_2">
+        Dormhi
+      </td>
+      <td class="table_row_2 table_column_3">
+        Djamal
+      </td>
+    </tr>
+    <tr class="table_row_tr_3">
+      <td class="table_row_3 table_column_1">
+        3
+      </td>
+      <td class="table_row_3 table_column_2">
+        Desmuguer
+      </td>
+      <td class="table_row_3 table_column_3">
+        Yvan
+      </td>
+    </tr>
+    <tr class="table_row_tr_4">
+      <td class="table_row_4 table_column_1">
+        4
+      </td>
+      <td class="table_row_4 table_column_2">
+        Ottencion
+      </td>
+      <td class="table_row_4 table_column_3">
+        Line
+      </td>
+    </tr>
+    <tr class="table_row_tr_5">
+      <td class="table_row_5 table_column_1">
+        5
+      </td>
+      <td class="table_row_5 table_column_2">
+        Pelpu
+      </td>
+      <td class="table_row_5 table_column_3">
+        Sarah
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="table_row_tr_6">
+      <td class="table_row_6 table_column_1">
+        6
+      </td>
+      <td class="table_row_6 table_column_2">
+        Lutfinal
+      </td>
+      <td class="table_row_6 table_column_3">
+        Sheila
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+</div>
